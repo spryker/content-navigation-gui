@@ -39,17 +39,11 @@ class ContentNavigationConstraint extends Constraint
         parent::__construct($options);
     }
 
-    /**
-     * @return \Spryker\Zed\ContentNavigationGui\Dependency\Facade\ContentNavigationGuiToContentNavigationFacadeInterface
-     */
     public function getContentNavigationFacade(): ContentNavigationGuiToContentNavigationFacadeInterface
     {
         return $this->contentNavigationFacade;
     }
 
-    /**
-     * @return \Spryker\Zed\ContentNavigationGui\Dependency\Service\ContentNavigationGuiToUtilEncodingServiceInterface
-     */
     public function getUtilEncodingService(): ContentNavigationGuiToUtilEncodingServiceInterface
     {
         return $this->utilEncodingService;

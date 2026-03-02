@@ -17,9 +17,6 @@ class ContentNavigationContentGuiEditorConfigurationMapper implements ContentNav
      */
     protected $contentNavigationGuiConfig;
 
-    /**
-     * @param \Spryker\Zed\ContentNavigationGui\ContentNavigationGuiConfig $contentNavigationGuiConfig
-     */
     public function __construct(ContentNavigationGuiConfig $contentNavigationGuiConfig)
     {
         $this->contentNavigationGuiConfig = $contentNavigationGuiConfig;
@@ -41,9 +38,6 @@ class ContentNavigationContentGuiEditorConfigurationMapper implements ContentNav
         return $templates;
     }
 
-    /**
-     * @return string
-     */
     public function getTwigFunctionTemplate(): string
     {
         return '{{ ' . $this->contentNavigationGuiConfig->getTwigFunctionName() . "('%KEY%', '%TEMPLATE%') }}";

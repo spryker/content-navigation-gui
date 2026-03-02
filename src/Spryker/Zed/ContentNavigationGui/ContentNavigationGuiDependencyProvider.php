@@ -36,11 +36,6 @@ class ContentNavigationGuiDependencyProvider extends AbstractBundleDependencyPro
      */
     public const SERVICE_UTIL_ENCODING = 'SERVICE_UTIL_ENCODING';
 
-    /**
-     * @param \Spryker\Zed\Kernel\Container $container
-     *
-     * @return \Spryker\Zed\Kernel\Container
-     */
     public function provideCommunicationLayerDependencies(Container $container): Container
     {
         $container = parent::provideCommunicationLayerDependencies($container);
@@ -51,11 +46,6 @@ class ContentNavigationGuiDependencyProvider extends AbstractBundleDependencyPro
         return $container;
     }
 
-    /**
-     * @param \Spryker\Zed\Kernel\Container $container
-     *
-     * @return \Spryker\Zed\Kernel\Container
-     */
     protected function addContentNavigationFacade(Container $container): Container
     {
         $container->set(static::FACADE_CONTENT_NAVIGATION, function (Container $container): ContentNavigationGuiToContentNavigationFacadeInterface {
@@ -67,11 +57,6 @@ class ContentNavigationGuiDependencyProvider extends AbstractBundleDependencyPro
         return $container;
     }
 
-    /**
-     * @param \Spryker\Zed\Kernel\Container $container
-     *
-     * @return \Spryker\Zed\Kernel\Container
-     */
     protected function addNavigationFacade(Container $container): Container
     {
         $container->set(static::FACADE_NAVIGATION, function (Container $container): ContentNavigationGuiToNavigationFacadeInterface {
@@ -83,11 +68,6 @@ class ContentNavigationGuiDependencyProvider extends AbstractBundleDependencyPro
         return $container;
     }
 
-    /**
-     * @param \Spryker\Zed\Kernel\Container $container
-     *
-     * @return \Spryker\Zed\Kernel\Container
-     */
     protected function addUtilEncodingService(Container $container): Container
     {
         $container->set(static::SERVICE_UTIL_ENCODING, function (Container $container): ContentNavigationGuiToUtilEncodingServiceInterface {

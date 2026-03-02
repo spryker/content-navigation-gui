@@ -21,9 +21,6 @@ class NavigationContentTermFormDataProvider
      */
     protected $navigationFacade;
 
-    /**
-     * @param \Spryker\Zed\ContentNavigationGui\Dependency\Facade\ContentNavigationGuiToNavigationFacadeInterface $navigationFacade
-     */
     public function __construct(ContentNavigationGuiToNavigationFacadeInterface $navigationFacade)
     {
         $this->navigationFacade = $navigationFacade;

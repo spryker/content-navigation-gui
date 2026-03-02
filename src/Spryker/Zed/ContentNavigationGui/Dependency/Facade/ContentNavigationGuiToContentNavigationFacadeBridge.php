@@ -25,11 +25,6 @@ class ContentNavigationGuiToContentNavigationFacadeBridge implements ContentNavi
         $this->contentNavigationFacade = $contentNavigationFacade;
     }
 
-    /**
-     * @param \Generated\Shared\Transfer\ContentNavigationTermTransfer $contentNavigationTermTransfer
-     *
-     * @return \Generated\Shared\Transfer\ContentValidationResponseTransfer
-     */
     public function validateContentNavigationTerm(ContentNavigationTermTransfer $contentNavigationTermTransfer): ContentValidationResponseTransfer
     {
         return $this->contentNavigationFacade->validateContentNavigationTerm($contentNavigationTermTransfer);
