@@ -12,6 +12,8 @@ use Spryker\Shared\Kernel\AbstractSharedConfig;
 class ContentNavigationGuiConfig extends AbstractSharedConfig
 {
     /**
+     * @api
+     *
      * @uses \Spryker\Shared\ContentNavigation\ContentNavigationConfig::CONTENT_TYPE_NAVIGATION
      *
      * Content item navigation
@@ -21,6 +23,8 @@ class ContentNavigationGuiConfig extends AbstractSharedConfig
     public const CONTENT_TYPE_NAVIGATION = 'Navigation';
 
     /**
+     * @api
+     *
      * @uses \Spryker\Shared\ContentNavigation\ContentNavigationConfig::CONTENT_TERM_NAVIGATION
      *
      * Content item navigation
@@ -30,6 +34,8 @@ class ContentNavigationGuiConfig extends AbstractSharedConfig
     public const CONTENT_TERM_NAVIGATION = 'Navigation';
 
     /**
+     * @api
+     *
      * @uses \Spryker\Shared\ContentNavigation\ContentNavigationConfig::WIDGET_TEMPLATE_IDENTIFIER_TREE_INLINE
      *
      * Content item navigation tree-inline template identifier
@@ -39,6 +45,8 @@ class ContentNavigationGuiConfig extends AbstractSharedConfig
     public const WIDGET_TEMPLATE_IDENTIFIER_TREE_INLINE = 'tree-inline';
 
     /**
+     * @api
+     *
      * @uses \Spryker\Shared\ContentNavigation\ContentNavigationConfig::WIDGET_TEMPLATE_IDENTIFIER_TREE
      *
      * Content item navigation tree template identifier
@@ -48,6 +56,8 @@ class ContentNavigationGuiConfig extends AbstractSharedConfig
     public const WIDGET_TEMPLATE_IDENTIFIER_TREE = 'tree';
 
     /**
+     * @api
+     *
      * @uses \Spryker\Shared\ContentNavigation\ContentNavigationConfig::WIDGET_TEMPLATE_IDENTIFIER_LIST_INLINE
      *
      * Content item navigation list-inline template identifier
@@ -57,6 +67,8 @@ class ContentNavigationGuiConfig extends AbstractSharedConfig
     public const WIDGET_TEMPLATE_IDENTIFIER_LIST_INLINE = 'list-inline';
 
     /**
+     * @api
+     *
      * @uses \Spryker\Shared\ContentNavigation\ContentNavigationConfig::WIDGET_TEMPLATE_IDENTIFIER_LIST
      *
      * Content item navigation list template identifier
@@ -66,6 +78,8 @@ class ContentNavigationGuiConfig extends AbstractSharedConfig
     public const WIDGET_TEMPLATE_IDENTIFIER_LIST = 'list';
 
     /**
+     * @api
+     *
      * Content item navigation tree-inline template name
      *
      * @var string
@@ -73,6 +87,8 @@ class ContentNavigationGuiConfig extends AbstractSharedConfig
     public const WIDGET_TEMPLATE_DISPLAY_NAME_TREE_INLINE = 'Inline Tree';
 
     /**
+     * @api
+     *
      * Content item navigation tree template name
      *
      * @var string
@@ -80,6 +96,8 @@ class ContentNavigationGuiConfig extends AbstractSharedConfig
     public const WIDGET_TEMPLATE_DISPLAY_NAME_TREE = 'Tree';
 
     /**
+     * @api
+     *
      * Content item navigation list-inline template name
      *
      * @var string
@@ -87,6 +105,8 @@ class ContentNavigationGuiConfig extends AbstractSharedConfig
     public const WIDGET_TEMPLATE_DISPLAY_NAME_LIST_INLINE = 'Inline List';
 
     /**
+     * @api
+     *
      * Content item navigation list template name
      *
      * @var string
@@ -94,6 +114,8 @@ class ContentNavigationGuiConfig extends AbstractSharedConfig
     public const WIDGET_TEMPLATE_DISPLAY_NAME_LIST = 'List';
 
     /**
+     * @api
+     *
      * @uses \Spryker\Shared\ContentNavigation\ContentNavigationConfig::TWIG_FUNCTION_NAME
      *
      * Content item navigation function name
